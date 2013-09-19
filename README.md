@@ -10,7 +10,6 @@ EXAMPLE :
 $flickrapi 		= YOUR_FLICKR_API_KEY;
 $flickrsecret	= YOUR_FLICKR_SECRET_KEY;
 $flickrid 		= YOUR_FLICKR_ID;
-$flickrid 		= YOUR_FLICKR_ID;
 $flickrlimit	= 10 ;
 $flickpaged		= 1 ;
 
@@ -31,6 +30,6 @@ $recent = $f->people_getPublicPhotos( $flickrid, NULL, 'views', $flickrlimit, $f
 		<?php 
 		endforeach;
 		?>
-	</div>
+	</div><!-- .flickr -->
 </section><!-- .flickr-container -->
 ```
